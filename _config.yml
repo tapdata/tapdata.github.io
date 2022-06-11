@@ -1,7 +1,7 @@
 title: TapData Community Documentation
 logo: "/assets/logo-orange-grey-bar.png"
 description: The Documentation site of TapData
-url: "https://eshujiushiwo.github.io"
+url: "https://tapdata.github.io/docs"
 remote_theme: just-the-docs/just-the-docs
 search_enabled: false
 aux_links:
@@ -12,7 +12,7 @@ aux_links_new_tab: true
 # Footer content
 # appears at the bottom of every page's main content
 # Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust
-footer_content: "Copyright &copy; 2019-2022 TapData. Distributed by an <a href=\"https://github.com/tapdata/tapdata/tree/main/LICENSE.txt\">Apache 2.0 license.</a>"
+footer_content: "Copyright &copy; 2019-2022 TapData. Distributed by an <a href=\"https://github.com/tapdata/docs/tree/main/LICENSE.txt\">Apache 2.0 license.</a>"
 
 
 # Footer last edited timestamp
@@ -22,7 +22,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/eshujiushiwo/eshujiushiwo.github.io" # the github URL for your repo
+gh_edit_repository: "https://github.com/tapdata/docs" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
