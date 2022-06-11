@@ -1,7 +1,7 @@
 title: TapData Community Documentation
 logo: "/assets/logo-orange-grey-bar.png"
 description: The Documentation site of TapData
-baseurl: "/docs"
+baseurl: "/tapdata-docs"
 url: "https://tapdata.github.io"
 remote_theme: just-the-docs/just-the-docs
 search_enabled: false
