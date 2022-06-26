@@ -37,24 +37,24 @@ The term "live has two meanings:
 
 ```
 # Create Mysql DataSource
-> Demo-Mysql = DataSource("mysql","Demo-Mysql").host("demo-mysql").port(3306).username('root').password('password').db('demo')
-> Demo-Mysql.save()
+> Demo_Mysql = DataSource("mysql","Demo_Mysql").host("demo-mysql").port(3306).username('root').password('password').db('demo')
+> Demo_Mysql.save()
 
 # Create MongoDB DataSource
-> Demo-Mongo = DataSource("mongodb","Demo-Mongo").uri("mongodb://root:password@demo-mongo:27017/demo?authSource=admin")
-> Demo-Mongo.save()
+> Demo_Mongo = DataSource("mongodb","Demo_Mongo").uri("mongodb://root:password@demo-mongo:27017/demo?authSource=admin")
+> Demo_Mongo.save()
 
 # Create a job that transform the Customer table in Mysql to  MongoDB  and add/set filed 'updated' at the same time.
-> Demo-job = Pipeline("Demo-job").readFrom(Demo-Mysql.Customer).js('record["updated"]=new Date() ;return record;').writeTo(Demo-Mongo.Customer-v1)
+> Demo_job = Pipeline("Demo_job").readFrom(Demo_Mysql.Customer).js('record["updated"]=new Date() ;return record;').writeTo(Demo_Mongo.Customer-v1)
 
-> Demo-job.start()
+> Demo_job.start()
 
 # Check the status of job
 > show jobs
-> monitor job Demo-job
+> monitor job Demo_job
 
 # Check the log of job
-> logs job Demo-job limit=5 tail=True 
+> logs job Demo_job limit=5 tail=True 
 ```
 
 
@@ -132,6 +132,7 @@ TapData can be used by data stewards in following possible scenarios(Road map fe
 You can join these groups and chats to discuss and ask TapData related questions:
 
 - [WeChat Channel](https://www.tapdata.net) （todo）
+- Slack (todo)
 
 In addition, you may enjoy following:
 
@@ -146,12 +147,6 @@ For support, please contact [TapData](https://tapdata.net/tapdata-enterprise/dem
 
 See [Quick Start Guide](./docs/Quick Start/quick-start.md). 
 
-### To start using TapData Cloud
-
-We provide TapData Cloud - a fully-managed Data Replication and Migration Service for you. You can [sign up](https://auth.tapdata.net/login) and get started with TapData Cloud Free Tier.
-
-See [TapData Cloud Quick Start](https://tapdata.net/docs-tapdata-cloud.html).
-
 ## 「WIP」Contributing
 
 The [community repository](https://github.com/tapdata/community) hosts all information about the TapData community, including how to contribute to TapData, how TapData community is governed, how special interest groups are organized, etc.
@@ -160,12 +155,12 @@ Contributions are welcomed and greatly appreciated. See [Contribution to TapData
 
 
 
-## Case studies
+## Use cases
 
 - [MySQL to MySQL](./docs/Case Study/ETL/mysql-to-mysql.md)
 - [MySQL to MongoDB](./docs/Case Study/ETL/mysql-to-mongodb.md)
 - [MongoDB to MongoDB](./docs/Case Study/ETL/mongodb-to-mongodb.md)
 
-## 「WIP」License
+## License
 
-TapData is under the Apache 2.0 license. See the [LICENSE](./LICENSE.txt) file for details. 
+TapData is under the ELv2 license. See the [LICENSE](./LICENSE.txt) file for details. 
