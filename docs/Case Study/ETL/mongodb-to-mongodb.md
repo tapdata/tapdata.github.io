@@ -10,12 +10,12 @@ nav_order: 3
 
 In many cases, we need to transfer MongoDB data to another MongoDB, such as:
 
-- 「Database Migration」Transfer a database of MongoDB instance to another MongoDB instance in the other Server/IDC/Cloud/Region.
+- 「Database replication」Transfer a database of MongoDB instance to another MongoDB instance in the other Server/IDC/Cloud/Region.
 - 「Table Aggregation and Data Development」Merge multiple tables into one  or split one table to many with UDF
 
 The supported versions of MongoDB are shown [here](../../Connectors/pre-build-connectors.md#MongoDB)
 
-## Database Migration
+## Database replication
 
 ### Prerequisites
 
@@ -48,16 +48,16 @@ The supported versions of MongoDB are shown [here](../../Connectors/pre-build-co
 > Target_MongoDB.save()
 
 # Create a job that transform all the tables in Source-Mysql to Target-MongoDB.
-> migration_job = Pipeline("migration_job").readFrom(Source(Source_MongoDB,table_re=".*")).writeTo(Target_MongoDB)
+> replication_job = Pipeline("replication_job").readFrom(Source(Source_MongoDB,table_re=".*")).writeTo(Target_MongoDB)
 
-> migration_job.start()
+> replication_job.start()
 
 # Check the status of job
 > show jobs
-> monitor job migration_job
+> monitor job replication_job
 
 # Check the log of job
-> logs job migration_job limit=5 tail=True 
+> logs job replication_job limit=5 tail=True 
 ```
 
 After these steps you can login to the  target MongoDB and see the new data.
@@ -135,17 +135,17 @@ After these steps you can login to the  target MongoDB and see the new data.
 
 # Create a job that transform from Source_Mysql to Target_Mysql.
 
-> migration_job = Pipeline("migration_job").readFrom(Source_MongoDB.Orders).filterColumn(["id","detail","created_at","product_id"],FilterType.keep).js("/path/find_product_name.js").writeTo("Target_MongoDB.Orders_and_Products",writeMode=WriteMode.upsert, association=[("id", "id")])
+> replication_job = Pipeline("replication_job").readFrom(Source_MongoDB.Orders).filterColumn(["id","detail","created_at","product_id"],FilterType.keep).js("/path/find_product_name.js").writeTo("Target_MongoDB.Orders_and_Products",writeMode=WriteMode.upsert, association=[("id", "id")])
 
 
-> migration_job.start()
+> replication_job.start()
 
 # Check the status of job
 > show jobs
-> monitor job migration_job
+> monitor job replication_job
 
 # Check the log of job
-> logs job migration_job limit=5 tail=True 
+> logs job replication_job limit=5 tail=True 
 ```
 
 After these steps you can login to the  target MongoDB and see the new data.

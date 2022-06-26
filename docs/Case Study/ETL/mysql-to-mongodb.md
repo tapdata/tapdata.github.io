@@ -48,16 +48,16 @@ The supported versions of [MySQL](../../Connectors/pre-build-connectors.md#Mongo
 > Target_MongoDB.save()
 
 # Create a job that transform all the tables in Source-Mysql to Target-MongoDB.
-> migration_job = Pipeline("migration_job").readFrom(Source(Source_Mysql,table_re=".*")).writeTo(Target_MongoDB)
+> replication_job = Pipeline("replication_job").readFrom(Source(Source_Mysql,table_re=".*")).writeTo(Target_MongoDB)
 
-> migration_job.start()
+> replication_job.start()
 
 # Check the status of job
 > show jobs
-> monitor job migration_job
+> monitor job replication_job
 
 # Check the log of job
-> logs job migration_job limit=5 tail=True 
+> logs job replication_job limit=5 tail=True 
 ```
 
 After these steps you can login to the  target MongoDB and see the new data.
@@ -132,17 +132,17 @@ After these steps you can login to the  target MongoDB and see the new data.
 
 # Create a job that transform from Source_Mysql to Target_Mysql.
 
-> migration_job = Pipeline("migration_job").readFrom(Source_Mysql.Orders).filterColumn(["id","detail","created_at","product_id"],FilterType.keep).js("/path/find_product_name.js").writeTo("Target_MongoDB.Orders_and_Products",writeMode=WriteMode.upsert, association=[("id", "id")])
+> replication_job = Pipeline("replication_job").readFrom(Source_Mysql.Orders).filterColumn(["id","detail","created_at","product_id"],FilterType.keep).js("/path/find_product_name.js").writeTo("Target_MongoDB.Orders_and_Products",writeMode=WriteMode.upsert, association=[("id", "id")])
 
 
-> migration_job.start()
+> replication_job.start()
 
 # Check the status of job
 > show jobs
-> monitor job migration_job
+> monitor job replication_job
 
 # Check the log of job
-> logs job migration_job limit=5 tail=True 
+> logs job replication_job limit=5 tail=True 
 ```
 
 After these steps you can login to the  target MongoDB and see the new data.
