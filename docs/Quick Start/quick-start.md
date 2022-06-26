@@ -55,24 +55,24 @@ docker-compose exec ishell ishell
 # Demo Table is 'Customer'
 
 # Create Mysql DataSource
-> Demo-Mysql = DataSource("mysql","Demo-Mysql").host("demo-mysql").port(3306).username('root').password('root').db('demo')
-> Demo-Mysql.save()
+> Demo_Mysql = DataSource("mysql","Demo_Mysql").host("demo-mysql").port(3306).username('root').password('root').db('demo')
+> Demo_Mysql.save()
 
 # Create MongoDB DataSource
-> Demo-Mongo = DataSource("mongodb","Demo-Mongo").uri("mongodb://root:root@demo-mongo:27017/demo?authSource=admin")
-> Demo-Mongo.save()
+> Demo_Mongo = DataSource("mongodb","Demo_Mongo").uri("mongodb://root:root@demo-mongo:27017/demo?authSource=admin")
+> Demo_Mongo.save()
 
 # Create a job that transform the Customer table in Mysql to  MongoDB  and add/set filed 'updated' at the same time.
-> Demo-job = Pipeline("Demo-job").readFrom(Demo-Mysql.Customer).js('record["updated"]=new Date() ;return record;').writeTo(Demo-Mongo.Customer-v1)
+> Demo_job = Pipeline("Demo_job").readFrom(Demo_Mysql.Customer).js('record["updated"]=new Date() ;return record;').writeTo(Demo_Mongo.Customer-v1)
 
-> Demo-job.start()
+> Demo_job.start()
 
 # Check the status of job
 > show jobs
-> monitor job Demo-job
+> monitor job Demo_job
 
 # Check the log of job
-> logs job Demo-job limit=5 tail=True 
+> logs job Demo_job limit=5 tail=True 
 
 
 ```
