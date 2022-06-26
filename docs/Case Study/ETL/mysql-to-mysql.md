@@ -12,13 +12,15 @@ nav_order: 1
 In many cases, we need to transfer MySQL data to another MySQL, such as:
 
 - 「Database replication」Transfer a database of MySQL instance to another MySQL instance in the other Server/IDC/Cloud/Region.
-- 「Table Aggregation and Data Development (WIP)」Merge multiple tables into one  or split one table to many with UDF
+- 「Building Materialized View」Merge multiple tables into one  or split one table to many  
 
 The supported versions of MySQL are shown [here](../../Connectors/pre-build-connectors.md#Mysql)
 
 ## Database replication
 
-### Prerequisites
+### Setup
+
+Assuming you have two MySQL databases as follows, and you want to sync all the data from 192.168.1.1 to 192.168.1.2.
 
 #### Source 
 
@@ -37,6 +39,8 @@ The supported versions of MySQL are shown [here](../../Connectors/pre-build-conn
 | Target Instance Port | 3306 (Version 5.7)         |
 | Target Database      | Car_shop (already created) |
 
+
+
 ### Action
 
 ```
@@ -50,6 +54,7 @@ The supported versions of MySQL are shown [here](../../Connectors/pre-build-conn
 
 # Create a job that transform all the tables in Source_Mysql to Target_Mysql.
 > replication_job = Pipeline("replication_job").readFrom(Source(Source_Mysql,table_re=".*")).writeTo(Target_Mysql)
+# Source(Source_Mysql,table_re=".*"): Specify the data source, second parameter is a regular expression, you may it to specify multiple tables. 
 
 > replication_job.start()
 
@@ -63,9 +68,11 @@ The supported versions of MySQL are shown [here](../../Connectors/pre-build-conn
 
 After these steps you can login to the  target MySQL and see the new data.
 
-## Table Aggregation and Data Development（WIP）
+## Create Materialized View (of Orders)
 
-### Prerequisites
+### Setup
+
+Assuming you have two MySQL databases as follows:
 
 #### Source 
 
@@ -87,6 +94,8 @@ After these steps you can login to the  target MySQL and see the new data.
 
 #### Requirement
 
+We would like to create a new Orders table with some product fields as part of the schema . Order & Product are two tables joined by product_id.
+
 ![](../../../assets/mysql-to-mysql-1.png)
 
 
@@ -95,30 +104,8 @@ After these steps you can login to the  target MySQL and see the new data.
 
 
 
-
-
-
-
 ### Action
-
-```
-# Write the js script  「find_product_name.js」
-
-	record["updated_at"] = new Date();
-	var rs = source.executeQuery({
-		sql: "select name from products where  id = " + record.product_id + " limit 1"
-	});
-	if (rs) {
-		record["product_name"] = rs[0].name;
-	} else {
-		log.warn("Unable to find product_name is products tabel with : " + record.product_id);
-		record["product_name"] = "Not Found";
-	}
-	return record;
-
-```
-
-
+ 
 
 
 
@@ -133,8 +120,12 @@ After these steps you can login to the  target MySQL and see the new data.
 
 # Create a job that transform from Source_Mysql to Target_Mysql.
 
-> replication_job = Pipeline("replication_job").readFrom(Source_Mysql.Orders).filterColumn(["id","detail","created_at","product_id"],FilterType.keep).js("/path/find_product_name.js").writeTo("Target_Mysql.Orders_and_Products",writeMode=WriteMode.upsert, association=[("id", "id")])
+> replication_job = Pipeline("order_rep_job").readFrom(Source_Mysql.Orders).filterColumn(["id","detail","created_at","product_id"],FilterType.keep)
 
+
+> job2 = Pipeline("product_info").readFrom(Source_MySQL.Products).filterColumn(["id","product_name"])
+
+> replication_job.merge(job2).writeTo(Target_Mysql.Orders_and_Products,writeMode=WriteMode.upsert, association=[("id", "id")])
 
 > replication_job.start()
 
