@@ -2,7 +2,7 @@
 
 ## What is TapData?
 
-TapData is a live data platform designed to connect data silos and provide fresh data to the downstream data driven applications & analytics. 
+TapData is a live data platform designed to connect data silos and provide fresh data to the downstream operational applications & operational analytics. 
 
 <img width="603" alt="image" src="./assets/tapdata-infra.png">
 
@@ -10,13 +10,15 @@ TapData provides two ways to achieve this: Live Data Integration and Live Data S
 
 Live Data Integration is supported by TapData's real time data pipelines based on CDC technology, where you can easily connect and capture all the data plus all the changes from disparate data sources, without any custom coding. TapData supports many data sources out of box, including dozens of popular databases, you may also use TapData's PDK(Plugin Development Kit) quickly add your own data sources. 
 
-Live Data Service is an automatica data API service to allow users instantly create a RESTful API implementation via configuration. TapData will provide API Server to host those API endpoints. The backing data table are stored in a MongoDB cluster which is part of the TapData architecture. The data in MongoDB is typically replicated and processed from disparate data sources, via the Live Data Integration capability.  As an alternative, if your data source allows, you may also create data APIs directly from source databases such as Oracle, MySQL, SQLServer etc. 
+Live Data Service is Tapdata's modern approach to the old data integration problem:  streaming data into a centralized data store(currently powered by MongoDB), then serving the data via RESTful API. These APIs are created on-demand, and because they're served by the horizontally scalable, high performant and modern database(instead of source systems), the number of ETL jobs, the performance impact to the source systems, are hence greatly reduced. 
+
+As an alternative, if your data source allows, you may also create data APIs directly from source databases such as Oracle, MySQL, SQLServer etc. 
 
 The term "live has two meanings:
 
 - When you are using Live Data Integrations, TapData will collect data in a "live" mode means it will listen for the changes on the source database and capture the change immediately and send it to the pipeline for processing and downstream consumption. Sometime this is called CDC technology. The data is always fresh and lively throughout the data pipeline. 
 
-- When you are using Live Data Services, the backing data table is lively updated by TapData Live Data Integration pipelines and stays up-to-date with the source systems.  
+- When you are using Live Data Services, the backing data store is lively updated by TapData Live Data Integration pipelines and stays up-to-date with the source systems.  
 
 
 ## Primary Use Cases
@@ -26,6 +28,9 @@ The term "live has two meanings:
 - Real Time Data Pipelines, a better alternative to Kafka based data pipelines
 
 - Event-driven Applications, such as fraud detection or event notifications
+
+- Operational analytics where you need fresh data to make your insights reflect your business's current state
+
 
 
 ## How It Works
@@ -53,8 +58,6 @@ The term "live has two meanings:
 ```
 
 
-
-
 ## Features
 
 - Build end to end real time data pipelines in minutes
@@ -79,7 +82,7 @@ For more details and latest updates, see [TapData docs](./docs/About TapData/abo
 
 TapData can be used by Application developers in following use cases:
 
-- 「Coming soon in beta」Automatica API backend (Backend as a service) for data CRUD operations
+- 「Coming soon」Automatica API backend (Backend as a service) for data CRUD operations
 - Code-less CQRS implementation
 - Code-less RDBMS caching solution
 - Code-less Producer / Consumer for Kafka 
@@ -110,22 +113,19 @@ TapData can be used by DBAs in following use cases:
 
 #### Data Steward
 
-TapData can be used by data stewards in following possible scenarios:
+TapData can be used by data stewards in following possible scenarios(Road map feature):
 
-- 「Coming soon in beta」Build an enterprise master data management platform, either as a hub or transactional type
-- 「Coming soon in beta」As a metadata management solution
-- 「Coming soon in beta」As a data as a service platform to facilitate fast data distribution to BUs
+- Build an enterprise master data management platform, either as a hub or transactional type
+- As a metadata management solution
+- As a data as a service platform to facilitate fast data distribution to BUs
 
 
 ## Road Map
 
-- Open metadata compatibility 
-- Improved event cache store
 - More pre-built processors
-- Support more data store solution in addition to MongoDB
 - Aggregation framework on data pipeline
-- Java SDK
-
+- Pluggable Storage API - Support additional database for storage solution
+- Open metadata compatibility 
 
 ## Community
 
