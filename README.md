@@ -157,9 +157,9 @@ Contributions are welcomed and greatly appreciated. See [Contribution to TapData
 
 ## Use cases
 
-- [MySQL to MySQL](./docs/Use Cases/ETL/mysql-to-mysql.md)
-- [MySQL to MongoDB](./docs/Use Cases/ETL/mysql-to-mongodb.md)
-- [MongoDB to MongoDB](./docs/Use Cases/ETL/mongodb-to-mongodb.md)
+- [MySQL to MySQL](https://tapdata.github.io/tapdata-docs/docs/Use%20Cases/ETL/mysql-to-mysql.html)
+- [MySQL to MongoDB](https://tapdata.github.io/tapdata-docs/docs/Use%20Cases/ETL/mysql-to-mongodb.html)
+- [MongoDB to MongoDB](https://tapdata.github.io/tapdata-docs/docs/Use%20Cases/ETL/mongodb-to-mongodb.html)
 
 ## License
 
