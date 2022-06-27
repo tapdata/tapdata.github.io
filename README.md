@@ -151,7 +151,7 @@ See [Quick Start Guide](https://tapdata.github.io/tapdata-docs/docs/Quick%20Star
 
 The [community repository](https://github.com/tapdata/community) hosts all information about the TapData community, including how to contribute to TapData, how TapData community is governed, how special interest groups are organized, etc.
 
-Contributions are welcomed and greatly appreciated. See [Contribution to TapData](./docs/contribution-to-tapdata.md) for details on typical contribution workflows. 
+Contributions are welcomed and greatly appreciated. See [Contribution to TapData](./docs/contributing-to-tapdata.md) for details on typical contribution workflows. 
 
 
 
