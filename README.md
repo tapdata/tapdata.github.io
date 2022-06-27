@@ -132,7 +132,7 @@ TapData can be used by data stewards in following possible scenarios(Road map fe
 You can join these groups and chats to discuss and ask TapData related questions:
 
 - [WeChat Channel](https://www.tapdata.net) （todo）
-- Slack (todo)
+- [Slack](https://join.slack.com/t/tapdatacommunity/shared_invite/zt-1bjxqe9h0-EZcp7l6j7LwN_kjYB7leZw) 
 
 In addition, you may enjoy following:
 
