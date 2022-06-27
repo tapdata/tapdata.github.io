@@ -54,6 +54,6 @@ Please make sure that you have read the following documents:
 
 After you've installed TapData, you can make your data on tap, see the following documents:
 
-- [Transform Data from MySQL to MySQL in Real-Time](../Case Study/ETL/mysql-to-mysql.md)
-- [Transform Data from MySQL to MongoDB in Real-Time](../Case Study/ETL/mysql-to-mongodb.md)
-- [Data processing during the Transform](../Case Study/ETL/data-develop-via-movement.md)
+- [Transform Data from MySQL to MySQL in Real-Time](../Use Cases/ETL/mysql-to-mysql.md)
+- [Transform Data from MySQL to MongoDB in Real-Time](../Use Cases/ETL/mysql-to-mongodb.md)
+- [Data processing during the Transform](../Use Cases/ETL/data-develop-via-movement.md)

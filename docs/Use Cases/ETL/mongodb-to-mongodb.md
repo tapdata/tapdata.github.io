@@ -1,6 +1,6 @@
 ---
 title: Sync Data from MongoDB to MongoDB
-parent: Case Study
+parent: Use Cases
 has_children: false
 nav_order: 3
 ---

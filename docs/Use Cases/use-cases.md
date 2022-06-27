@@ -1,6 +1,6 @@
 ---
-title: Case Study
+title: Use Cases
 has_children: true
 nav_order: 5
 ---
-# Case Study
+# Use Cases

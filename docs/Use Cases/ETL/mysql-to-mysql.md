@@ -1,6 +1,6 @@
 ---
 title: Sync Data from MySQL to MySQL
-parent: Case Study
+parent: Use Cases
 has_children: false
 nav_order: 1
 ---
