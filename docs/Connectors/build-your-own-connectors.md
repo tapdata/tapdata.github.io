@@ -1,7 +1,7 @@
 ---
 title: Build Connectors with PDK
 parent: Connectors
-has_children: false
+has_children: true
 nav_order: 2
 ---
 # Build Connectors with PDK
