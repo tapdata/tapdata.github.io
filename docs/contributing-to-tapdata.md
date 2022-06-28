@@ -11,15 +11,8 @@ nav_order: 102
 
 You are welcome to contribute any code or files to the project. But firstly we suggest you raise an issue on the [github](https://github.com/tapdata/tapdata) to start a discussion with the community. Check through the topic for Github.
 
-### Sign the Contributor License Agreement (CLA)
+Once we confirm the issue after our discussion, we will create an issue branch for you. You can later submit a pull request into the issue branch. 
 
-What is [CLA](https://www.apache.org/licenses/contributor-agreements.html)?
-
-Here is the [tapdata inc. Contributor License Agreement](https://cla-assistant.io/tapdata/).
-
-Click the **Sign in with GitHub to agree** button to sign the CLA.
-
-If you have any questions, send an email to `info@tapdata.io`.
 
 ## Step 1: Fork in the github.com
 
@@ -30,7 +23,7 @@ If you have any questions, send an email to `info@tapdata.io`.
 ## Step 2: Develop
 
 - Develop a PDK Connector
-  - Pass connector tests before submit PR
+  - Pass connector tests
 
 - Develop iengine/manager
 
@@ -43,6 +36,8 @@ If you have any questions, send an email to `info@tapdata.io`.
 1. Visit your fork.
 
 2. Click the `Compare & pull request` button next to your branch.
+
+3. Submit pull request to the issue branch 
 
 ## Step 4: Get a Code Review
 
