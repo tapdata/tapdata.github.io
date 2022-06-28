@@ -1,3 +1,10 @@
+---
+title: Development Guide
+parent: Build Connectors with PDK
+has_children: false
+nav_order: 3
+---
+
 # Development Guide
 
 ## Develop PDK connector
@@ -27,15 +34,15 @@ There are 11 methods to implement. The more developer implement, the more featur
 ## Plugin diagrams
 
 Source methods invocation state diagram
-![This is an image](images/sourceStateDiagram.jpg)
+![This is an image](../../../assets/pdk/sourceStateDiagram.jpg)
 Target methods invocation state diagram
-![This is an image](images/targetStateDiagram.jpg)
+![This is an image](../../../assets/pdk/targetStateDiagram.jpg)
 
 TapEvent class diagram
-![This is an image](images/eventClassDiagram.png)
+![This is an image](../../../assets/pdk/eventClassDiagram.png)
 
 Record conversion from source to target diagram
-![This is an image](images/recordFlowDiagram.jpg)
+![This is an image](../../../assets/pdk/recordFlowDiagram.jpg)
 
 ## Methods
 ### Batch Read

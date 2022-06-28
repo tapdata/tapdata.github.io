@@ -87,13 +87,13 @@ spec.json describes three types information,
 
 * properties
     - Connector name, icon and id.
-* [configOptions](docs/form-json-schema.md)
+* [configOptions](docs/form-json-schema.md) Form Json Schema
     - Describe a form for user to input the information for how to connect and which database to open.
-* [dataTypes](docs/dataTypes.md)
+* [dataTypes](docs/data-type-expressions.md) Data Type Expressions
     - This will be required when current data source need create table with proper types before insert records.
       Otherwise, this key can be empty.
     - Describe the capability of types for current data source.
-    - iDaaS Incremental Engine will generate proper types when table creation is needed.
+    - Incremental Engine will generate proper types when table creation is needed.
 
 ```json
 {
@@ -137,8 +137,6 @@ spec.json describes three types information,
 }
 
 ```
-
-
 
 ## How to create PDK java project?
 
@@ -195,5 +193,5 @@ PDK need developer to provide below,
 * Implement the methods that PDK required.
 * Use TDD to verify that the methods are implemented correctly.
 
-[Get started](docs/development.md)
+[Get started](docs/development-guide.md)
 

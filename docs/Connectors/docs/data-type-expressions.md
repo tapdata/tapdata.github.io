@@ -1,3 +1,10 @@
+---
+title: Data Type Expressions
+parent: Build Connectors with PDK
+has_children: false
+nav_order: 2
+---
+
 # Data Types
 
 Data types is the mapping of data type (include capabilities) with TapType.   
@@ -7,14 +14,12 @@ TapType is the generic type definition in iDaaS Incremental Engine.
 * Records with TapTypes will flow into Incremental Engine to do processing, join, etc.
 * Once the records with TapTypes will flow into a PDK target, Incremental engine will conjecture the best data types for PDK developer to create the table, base on the input of data types json mapping.
 
-For more about [Data Types](dataTypes.md).
-
 If without TapType, the conversion lines is like below, which is very complex to maintain.
-![This is an image](images/withoutTapType.png)
+![This is an image](../../../assets/pdk/withoutTapType.png)
 
 With TapType in the middle of type conversion, the conversion can be maintainable and the fundamental for data processing, join, etc.
 
-![This is an image](images/withTapType.png)
+![This is an image](../../../assets/pdk/withTapType.png)
 
 Above is the important concept to implement PDK connector, especially for the data source which need create table for insert records.
 
@@ -46,7 +51,7 @@ We also have 11 types of TapValue for each TapType to combine value with it's Ta
 * TapYearValue
 
 Below is schema class diagram
-![This is an image](images/schemaClassDiagram.png)
+![This is an image](../../../assets/pdk/schemaClassDiagram.png)
 
 
 Data Types in spec.json is to describe the capabilities of data types for Incremental Engine to conjecture the best data types to create table before record insertion. 
@@ -272,4 +277,4 @@ Example of Doris data type expression is below,
 ```
 
 ## Data types class diagram
-![This is an image](images/mappingClassDiagram.png)
+![This is an image](../../../assets/pdk/mappingClassDiagram.png)
