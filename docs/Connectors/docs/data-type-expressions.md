@@ -1,6 +1,7 @@
 ---
 title: Data Type Expressions
 parent: Build Connectors with PDK
+grand_parent: Connectors
 has_children: false
 nav_order: 2
 ---
