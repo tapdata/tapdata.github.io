@@ -3,7 +3,7 @@ title: Form Json Schema
 parent: Build Connectors with PDK
 grand_parent: Connectors
 has_children: false
-nav_order: 1
+nav_order: 3
 ---
 
 # Config Options
