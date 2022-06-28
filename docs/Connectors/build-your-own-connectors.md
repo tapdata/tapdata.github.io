@@ -1,7 +1,10 @@
-# Tapdata PDK
-
-![GitHub stars](https://img.shields.io/github/stars/tapdata/tapdata?style=social&label=Star&maxAge=2592000)
-[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+---
+title: Build Connectors with PDK
+parent: Connectors
+has_children: false
+nav_order: 2
+---
+# Build Connectors with PDK
 
 ## What is PDK
 
@@ -17,7 +20,7 @@
 PDK connectors provide data source to flow in iDaaS pipeline to process, join, etc, and flow in a target which is also
 provided by PDK connectors.
 
-[comment]: <> (![This is an image]&#40;docs/images/pdkFlowDiagram.gif&#41;)
+[comment]: <> "![This is an image]&#40;docs/images/pdkFlowDiagram.gif&#41;"
 
 ## Quick Start
 
