@@ -20,8 +20,6 @@ nav_order: 2
 PDK connectors provide data source to flow in iDaaS pipeline to process, join, etc, and flow in a target which is also
 provided by PDK connectors.
 
-[comment]: <> "![This is an image]&#40;docs/images/pdkFlowDiagram.gif&#41;"
-
 ## Quick Start
 
 Java 8+ and Maven need to be installed.
@@ -89,7 +87,7 @@ spec.json describes three types information,
 
 * properties
     - Connector name, icon and id.
-* [configOptions](docs/configOptions.md)
+* [configOptions](docs/form-json-schema.md)
     - Describe a form for user to input the information for how to connect and which database to open.
 * [dataTypes](docs/dataTypes.md)
     - This will be required when current data source need create table with proper types before insert records.

@@ -1,3 +1,10 @@
+---
+title: Build Connectors with PDK
+parent: Connectors
+has_children: false
+nav_order: 3
+---
+
 # Config Options
 
 Describe a form for user to input the information for how to connect and which database to open and any other information need user to fill. 
