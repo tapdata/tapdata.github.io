@@ -1,14 +1,14 @@
 ![](./assets/logo-orange-grey-bar.png)
 
-## What is TapData?
+## What is Tapdata?
 
-TapData is a live data platform designed to connect data silos and provide fresh data to the downstream operational applications & operational analytics. 
+Tapdata is a live data platform designed to connect data silos and provide fresh data to the downstream operational applications & operational analytics. 
 
 <img width="603" alt="image" src="./assets/tapdata-infra.png">
 
-TapData provides two ways to achieve this: Live Data Integration and Live Data Service. 
+Tapdata provides two ways to achieve this: Live Data Integration and Live Data Service. 
 
-Live Data Integration is supported by TapData's real time data pipelines based on CDC technology, where you can easily connect and capture all the data plus all the changes from disparate data sources, without any custom coding. TapData supports many data sources out of box, including dozens of popular databases, you may also use TapData's PDK(Plugin Development Kit) quickly add your own data sources. 
+Live Data Integration is supported by Tapdata's real time data pipelines based on CDC technology, where you can easily connect and capture all the data plus all the changes from disparate data sources, without any custom coding. Tapdata supports many data sources out of box, including dozens of popular databases, you may also use Tapdata's PDK(Plugin Development Kit) quickly add your own data sources. 
 
 Live Data Service is Tapdata's modern approach to the old data integration problem:  streaming data into a centralized data store(currently powered by MongoDB), then serving the data via RESTful API. These APIs are created on-demand, and because they're served by the horizontally scalable, high performant and modern database(instead of source systems), the number of ETL jobs, the performance impact to the source systems, are hence greatly reduced. 
 
@@ -16,9 +16,9 @@ As an alternative, if your data source allows, you may also create data APIs dir
 
 The term "live has two meanings:
 
-- When you are using Live Data Integrations, TapData will collect data in a "live" mode means it will listen for the changes on the source database and capture the change immediately and send it to the pipeline for processing and downstream consumption. Sometime this is called CDC technology. The data is always fresh and lively throughout the data pipeline. 
+- When you are using Live Data Integrations, Tapdata will collect data in a "live" mode means it will listen for the changes on the source database and capture the change immediately and send it to the pipeline for processing and downstream consumption. Sometime this is called CDC technology. The data is always fresh and lively throughout the data pipeline. 
 
-- When you are using Live Data Services, the backing data store is lively updated by TapData Live Data Integration pipelines and stays up-to-date with the source systems.  
+- When you are using Live Data Services, the backing data store is lively updated by Tapdata Live Data Integration pipelines and stays up-to-date with the source systems.  
 
 
 ## Primary Use Cases
@@ -74,13 +74,13 @@ The term "live has two meanings:
 - Highly available pipelines
 
 
-For more details and latest updates, see [TapData docs](./docs/About TapData/about-tapdata.md) and [release notes](./docs/Release Notes/all-releases.md).
+For more details and latest updates, see [Tapdata docs](./docs/About Tapdata/about-tapdata.md) and [release notes](./docs/Release Notes/all-releases.md).
 
-## More Use Cases: Who & When Can Use TapData
+## More Use Cases: Who & When Can Use Tapdata
 
 #### Application Develoepers
 
-TapData can be used by Application developers in following use cases:
+Tapdata can be used by Application developers in following use cases:
 
 - 「Coming soon」Automatica API backend (Backend as a service) for data CRUD operations
 - Code-less CQRS implementation
@@ -92,7 +92,7 @@ TapData can be used by Application developers in following use cases:
 
 #### Data Engineers or Data Analysts
 
-For data engineers or data analysts,  TapData can be used as a modern, general purpose, low code ETL platform for various data sync, processing or data modeling activities.
+For data engineers or data analysts,  Tapdata can be used as a modern, general purpose, low code ETL platform for various data sync, processing or data modeling activities.
 
 - Data extract / transform / load
 - Data processing for data warehouse
@@ -102,7 +102,7 @@ For data engineers or data analysts,  TapData can be used as a modern, general p
 
 #### DBAs / System Engineers
 
-TapData can be used by DBAs in following use cases:
+Tapdata can be used by DBAs in following use cases:
 
 - Heterogeneous database replication
 - Real time backup
@@ -113,7 +113,7 @@ TapData can be used by DBAs in following use cases:
 
 #### Data Steward
 
-TapData can be used by data stewards in following possible scenarios(Road map feature):
+Tapdata can be used by data stewards in following possible scenarios(Road map feature):
 
 - Build an enterprise master data management platform, either as a hub or transactional type
 - As a metadata management solution
@@ -129,7 +129,7 @@ TapData can be used by data stewards in following possible scenarios(Road map fe
 
 ## Community
 
-You can join these groups and chats to discuss and ask TapData related questions:
+You can join these groups and chats to discuss and ask Tapdata related questions:
 
 - [WeChat Channel](https://open-assets.tapdata.net/tapdata-community-wechat.jpeg) 
 - [Slack](https://join.slack.com/t/tapdatacommunity/shared_invite/zt-1bjxqe9h0-EZcp7l6j7LwN_kjYB7leZw) 
@@ -137,21 +137,21 @@ You can join these groups and chats to discuss and ask TapData related questions
 In addition, you may enjoy following:
 
 - Question in the Github Issues
-- The TapData Team [Blog](https://tapdata.net/blog.html) 
+- The Tapdata Team [Blog](https://tapdata.net/blog.html) 
 
-For support, please contact [TapData](https://tapdata.net/tapdata-enterprise/demo.html). (todo: a brand new contact us page)
+For support, please contact [Tapdata](https://tapdata.net/tapdata-enterprise/demo.html). (todo: a brand new contact us page)
 
 ## Quick start
 
-### To start using TapData
+### To start using Tapdata
 
 See [Quick Start Guide](https://tapdata.github.io/tapdata-docs/docs/Quick%20Start/quick-start.html). 
 
 ## 「WIP」Contributing
 
-The [community repository](https://github.com/tapdata/community) hosts all information about the TapData community, including how to contribute to TapData, how TapData community is governed, how special interest groups are organized, etc.
+The [community repository](https://github.com/tapdata/community) hosts all information about the Tapdata community, including how to contribute to Tapdata, how Tapdata community is governed, how special interest groups are organized, etc.
 
-Contributions are welcomed and greatly appreciated. See [Contribution to TapData](./docs/contributing-to-tapdata.md) for details on typical contribution workflows. 
+Contributions are welcomed and greatly appreciated. See [Contribution to Tapdata](./docs/contributing-to-tapdata.md) for details on typical contribution workflows. 
 
 
 
@@ -163,4 +163,4 @@ Contributions are welcomed and greatly appreciated. See [Contribution to TapData
 
 ## License
 
-TapData is under the ELv2 license. See the [LICENSE](./LICENSE.txt) file for details. 
+Tapdata is under the ELv2 license. See the [LICENSE](./LICENSE.txt) file for details. 

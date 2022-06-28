@@ -52,7 +52,7 @@ Please make sure that you have read the following documents:
 
 ## What's next
 
-After you've installed TapData, you can make your data on tap, see the following documents:
+After you've installed Tapdata, you can make your data on tap, see the following documents:
 
 - [Transform Data from MySQL to MySQL in Real-Time](../Use Cases/ETL/mysql-to-mysql.md)
 - [Transform Data from MySQL to MongoDB in Real-Time](../Use Cases/ETL/mysql-to-mongodb.md)

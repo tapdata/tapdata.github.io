@@ -1,21 +1,21 @@
 ---
-title: TapData Shell Overview
-parent: TapData Shell
+title: Tapdata Shell Overview
+parent: Tapdata Shell
 has_children: false
 nav_order: 1
 ---
-# TapData Shell Overview
+# Tapdata Shell Overview
 
 ## Overview
 
-The TapData Shell, `tapshell`, is a fully functional  environment for interacting with TapData. You can use the TapData Shell to :
+The Tapdata Shell, `tapshell`, is a fully functional  environment for interacting with Tapdata. You can use the Tapdata Shell to :
 
-- Explore & Manage TapData Data Store 
+- Explore & Manage Tapdata Data Store 
 - Explore & Manage TapModels 
 - Author, test, run & monitor the Jobs & Pipeliens
 - Publish APIs
 
-「WIP」tapshell is available as a standalone package in the TapData download center.
+「WIP」tapshell is available as a standalone package in the Tapdata download center.
 
 
 
@@ -23,9 +23,9 @@ The TapData Shell, `tapshell`, is a fully functional  environment for interactin
 
 To learn how to download and install the `tapshell`, see [Install `tapshell`](../Deployment/install-and-start.md).
 
-## Connect to a TapData
+## Connect to a Tapdata
 
-Once you have installed the TapData Shell , you can connect to a TapData by using the command below. 
+Once you have installed the Tapdata Shell , you can connect to a Tapdata by using the command below. 
 
 ```
 tapshell --host 127.0.0.1:3030 -u username

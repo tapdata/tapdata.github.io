@@ -1,7 +1,7 @@
 ---
-title: About TapData
+title: About Tapdata
 has_children: true
 nav_order: 2
 ---
-# About TapData
+# About Tapdata
 

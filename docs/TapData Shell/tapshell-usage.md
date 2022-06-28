@@ -1,6 +1,6 @@
 ---
 title: TapShell Usage
-parent: TapData Shell
+parent: Tapdata Shell
 has_children: false
 nav_order: 2
 ---
@@ -16,7 +16,7 @@ nav_order: 2
 ---
 
 
-To run commands in `tapshell`, you must first [connect to a TapData](./tapshell-overview.md).
+To run commands in `tapshell`, you must first [connect to a Tapdata](./tapshell-overview.md).
 
 
 
@@ -24,11 +24,11 @@ To run commands in `tapshell`, you must first [connect to a TapData](./tapshell-
 
 ### Display the resources
 
-To display the resources in the TapData system, you can use the command `show`
+To display the resources in the Tapdata system, you can use the command `show`
 
 #### `show datasources`
 
-To list the datasources in the TapData system, use the command `show datasources` and get the return like below.
+To list the datasources in the Tapdata system, use the command `show datasources` and get the return like below.
 
 ```
 id     status     database_type        name
@@ -46,7 +46,7 @@ id     status     database_type        name
 
 #### `show jobs`
 
-To list the jobs in the TapData system, use the command `show jobs` and get the return like below.
+To list the jobs in the Tapdata system, use the command `show jobs` and get the return like below.
 
 ```
 a2e1d7: Mysql-2-MongoDB                             draft    custom/initial_sync+cdc
@@ -63,7 +63,7 @@ a2e1d7: Mysql-2-MongoDB                             draft    custom/initial_sync
 
 #### `show apis`
 
-To list the APIs in the TapData system, use the command `show apis` and get the return like below.
+To list the APIs in the Tapdata system, use the command `show apis` and get the return like below.
 
 ```
 api_name             tablename            basePath             status     test url
@@ -206,11 +206,11 @@ Load and Reload the schema of specified datasource.
 
 ## `tapshell` Lib
 
-### Understand the TapData Shell Lib Syntax
+### Understand the Tapdata Shell Lib Syntax
 
-The TapData shell Library consists of configuration and action. Each configuration declare the attributes of the library  as they pass through the pipeline. 
+The Tapdata shell Library consists of configuration and action. Each configuration declare the attributes of the library  as they pass through the pipeline. 
 
-To create an Lib or make some action, use the following syntax in the TapData Shell:
+To create an Lib or make some action, use the following syntax in the Tapdata Shell:
 
 ```
 <variable> = <lib>.[configurations]

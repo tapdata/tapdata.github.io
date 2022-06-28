@@ -1,6 +1,6 @@
 ---
 title: Architecture & Fundamentals
-parent: About TapData
+parent: About Tapdata
 has_children: false
 nav_order: 2
 ---
@@ -8,24 +8,24 @@ nav_order: 2
 
 
 
-## TapData Components Overview
+## Tapdata Components Overview
 
 
-The TapData Platform consists following components: 
+The Tapdata Platform consists following components: 
 
-#### TapData Core Components:
+#### Tapdata Core Components:
 
 - Incremental Engine(IE): The core component handles data capture, process and output tasks. 
 
 - Service Engine(SE): responsible for publish & serve Data API
 
-- TapData Management(TM): Functionalities necessary for the data platform, including job management, monitoring, metadata, security, users & permissions etc. 
+- Tapdata Management(TM): Functionalities necessary for the data platform, including job management, monitoring, metadata, security, users & permissions etc. 
 
-#### TapData Client Components
+#### Tapdata Client Components
 
 - Tap Shell: Interactive shell to author, run & monitor pipelines and manage data APIs. 
 
-- Client SDK: Language SDKs to manage/interact with TapData from programming language, currently only Python is supported. Java is on the roadmap. 
+- Client SDK: Language SDKs to manage/interact with Tapdata from programming language, currently only Python is supported. Java is on the roadmap. 
 
 - PDK: Plugin Development Kit for custom sources, targets & processors
 
@@ -46,33 +46,33 @@ Incremental Engine is the core power house in Tapdata platform.  It handles foll
 
 ## Storage Engine
 
-TapData may store two kinds of data in data store: Change Events & Customer Data. 
+Tapdata may store two kinds of data in data store: Change Events & Customer Data. 
 
-To serve data via RESTful API, TapData replicates the data from source systems and store them in centralized data store. 
+To serve data via RESTful API, Tapdata replicates the data from source systems and store them in centralized data store. 
 
-To enable event-driven data processing and real time reverse ETL, TapData will keep certain amount of change events TapData captured from data sources. 
+To enable event-driven data processing and real time reverse ETL, Tapdata will keep certain amount of change events Tapdata captured from data sources. 
 
-In order to store these two types of data, TapData inclueds a distributed database in the installation. Currently MongoDB is used for the default storage option.   In the future, additional database type(such as MySQL or TiDB) may be supported via the Storage Engine API(Planned feature)
+In order to store these two types of data, Tapdata inclueds a distributed database in the installation. Currently MongoDB is used for the default storage option.   In the future, additional database type(such as MySQL or TiDB) may be supported via the Storage Engine API(Planned feature)
 
 
 
 ## Service Engine
 
-Service Engine is written in Node.js. The primary purpose is to enable the data serving via RESTful API. Once you have created & configured your data API in TapData
+Service Engine is written in Node.js. The primary purpose is to enable the data serving via RESTful API. Once you have created & configured your data API in Tapdata
 Management， the API definition will be picked up by Service Engine, when a HTTP request arrives at the API Server, Service Engine will automatically route the request to the  generated code, the code will in turn to retrieve data from database, format it, and send back to the requester.
 
-Service Engine is optional if you only use TapData for data integration & data processing. 
+Service Engine is optional if you only use Tapdata for data integration & data processing. 
 
 ## Data Architecture
 
-There are two primary use case categories for TapData:
+There are two primary use case categories for Tapdata:
 
 - As a data integration / data processing platform
 - As a data as a service or real time data platform
 
-When you use TapData as a data integration tool, the data archtiecture is fairly simple, typically involes from source to processor to target. 
+When you use Tapdata as a data integration tool, the data archtiecture is fairly simple, typically involes from source to processor to target. 
 
-When you use TapData as a real time data platform, things will be a bit more complex. The data flow would include:
+When you use Tapdata as a real time data platform, things will be a bit more complex. The data flow would include:
 
 1. Capture & Process
 2. Unify & Store 
@@ -124,7 +124,7 @@ iModels a subset of "Tables"
 
 #### Data API
 
-To facilitate instant access to the managed data, TapData can automatically generate RESTful API code (nodejs) when you publish a Data API for a table(in relatioanl databases) or collection (in MongoDB).  When you start a complete TapData installation, one or more API Server instances will run and listen on the 3030 port(configurable). When a HTTP request arrives at the API Server, TapData will route the request to the proper API code to handle the request. 
+To facilitate instant access to the managed data, Tapdata can automatically generate RESTful API code (nodejs) when you publish a Data API for a table(in relatioanl databases) or collection (in MongoDB).  When you start a complete Tapdata installation, one or more API Server instances will run and listen on the 3030 port(configurable). When a HTTP request arrives at the API Server, Tapdata will route the request to the proper API code to handle the request. 
 
 
  

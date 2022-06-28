@@ -6,9 +6,9 @@ nav_order: 3
 # Quick Start
 
 
-This guide walks you through the quickest way to get started with TapData using [Docker Compose](https://github.com/docker/compose) , and will show a sample of the datamovement from MySQL to MongoDB in Real-Time.
+This guide walks you through the quickest way to get started with Tapdata using [Docker Compose](https://github.com/docker/compose) , and will show a sample of the datamovement from MySQL to MongoDB in Real-Time.
 
-You can also deploy your TapData by either of the following methods:
+You can also deploy your Tapdata by either of the following methods:
 
 - Git
 - Docker
@@ -45,10 +45,10 @@ docker-compose exec tapdata tapdata status
 
 
 
-3. Create TapData DataSource & Job to transform the Data from mysql to mongoDB.
+3. Create Tapdata DataSource & Job to transform the Data from mysql to mongoDB.
 
 ```
-# Login to TapData using ishell
+# Login to Tapdata using ishell
 docker-compose exec ishell ishell 
 
 # Demo Database is 'demo'
