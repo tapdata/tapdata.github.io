@@ -1,8 +1,8 @@
 ---
 title: Form Json Schema
-parent: Connectors
+parent: Build Connectors with PDK
 has_children: false
-nav_order: 3
+nav_order: 1
 ---
 
 # Config Options
