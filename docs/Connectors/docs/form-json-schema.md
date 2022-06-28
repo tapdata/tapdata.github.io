@@ -1,5 +1,5 @@
 ---
-title: Build Connectors with PDK
+title: Form Json Schema
 parent: Connectors
 has_children: false
 nav_order: 3
