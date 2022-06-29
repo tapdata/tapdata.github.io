@@ -4,7 +4,7 @@ parent: Deployment
 has_children: false
 nav_order: 2
 ---
-# Install and Start
+# 「WIP」Install and Start
 This document will be updated to the official version on June 30.
 
 ## Prerequisites

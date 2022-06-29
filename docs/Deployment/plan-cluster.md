@@ -5,7 +5,7 @@ has_children: false
 nav_order: 3
 ---
 
-# Plan Your Deployment
+# 「WIP」Plan Your Deployment
 This document will be updated to the official version on June 30.
 
 Tapdata is designed with light weight and low up front cost in mind. You may choose an appropriate configuration based on your needs. 
