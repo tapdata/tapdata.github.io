@@ -1,11 +1,11 @@
 ---
-title: Install and Start
+title: 「WIP」Install and Start
 parent: Deployment
 has_children: false
 nav_order: 2
 ---
 # Install and Start
-
+This document will be updated to the official version on June 30.
 
 ## Prerequisites
 
