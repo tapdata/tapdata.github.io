@@ -145,7 +145,7 @@ For support, please contact [Tapdata](https://tapdata.net/tapdata-enterprise/dem
 
 ### To start using Tapdata
 
-See [Quick Start Guide](https://tapdata.github.io/tapdata-docs/docs/Quick%20Start/quick-start.html). 
+See [Quick Start Guide](https://tapdata.github.io/docs/Quick%20Start/quick-start.html). 
 
 ## 「WIP」Contributing
 
@@ -157,9 +157,9 @@ Contributions are welcomed and greatly appreciated. See [Contribution to Tapdata
 
 ## Use cases
 
-- [MySQL to MySQL](https://tapdata.github.io/tapdata-docs/docs/Use%20Cases/ETL/mysql-to-mysql.html)
-- [MySQL to MongoDB](https://tapdata.github.io/tapdata-docs/docs/Use%20Cases/ETL/mysql-to-mongodb.html)
-- [MongoDB to MongoDB](https://tapdata.github.io/tapdata-docs/docs/Use%20Cases/ETL/mongodb-to-mongodb.html)
+- [MySQL to MySQL](https://tapdata.github.io/docs/Use%20Cases/ETL/mysql-to-mysql.html)
+- [MySQL to MongoDB](https://tapdata.github.io/docs/Use%20Cases/ETL/mysql-to-mongodb.html)
+- [MongoDB to MongoDB](https://tapdata.github.io/docs/Use%20Cases/ETL/mongodb-to-mongodb.html)
 
 ## License
 
