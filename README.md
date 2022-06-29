@@ -163,4 +163,4 @@ Contributions are welcomed and greatly appreciated. See [Contribution to Tapdata
 
 ## License
 
-Tapdata is under the ELv2 license. See the [LICENSE](./LICENSE.txt) file for details. 
+Tapdata is under the SSPL v1 license. 
