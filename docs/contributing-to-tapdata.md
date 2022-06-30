@@ -1,5 +1,5 @@
 ---
-title: Contribution To Tapdata
+title: Contribution
 has_children: false
 nav_order: 102
 ---
