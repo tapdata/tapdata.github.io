@@ -15,7 +15,7 @@ The Tapdata Shell, `tapshell`, is a fully functional  environment for interactin
 - Author, test, run & monitor the Jobs & Pipeliens
 - Publish APIs
 
-「WIP」tapshell is available as a standalone package in the Tapdata download center.
+Tapshell is available as a standalone package in the Tapdata download center.
 
 
 

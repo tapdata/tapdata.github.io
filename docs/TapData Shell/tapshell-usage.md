@@ -178,17 +178,6 @@ job Car_shop_job2 status: running, total sync table: 1, finished synced: 1, tota
 
 
 
-### 「WIP」API Command
-
-#### `publish <api name> <DataSource.table> `
-
-Publish a table to a new api.
-
-
-
-#### `unpublish <api name>  `
-
-Unpublish the specified api.
 
 
 
