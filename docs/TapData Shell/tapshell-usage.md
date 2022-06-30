@@ -16,8 +16,6 @@ nav_order: 2
 ---
 
 
-To run commands in `tapshell`, you must first [connect to a Tapdata](./tapshell-overview.md).
-
 
 
 ## `tapshell` Command

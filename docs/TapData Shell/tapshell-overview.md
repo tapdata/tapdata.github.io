@@ -19,21 +19,16 @@ The Tapdata Shell, `tapshell`, is a fully functional  environment for interactin
 
 
 
-## Download and Install `tapshell`
 
-To learn how to download and install the `tapshell`, see [Install `tapshell`](../Deployment/install-and-start.md).
 
 ## Connect to a Tapdata
 
-Once you have installed the Tapdata Shell , you can connect to a Tapdata by using the command below. 
+Once you have installed the Tapdata  , you can connect to a Tapdata by using the command below. 
 
 ```
-tapshell --host 127.0.0.1:3030 -u username
+bash build/quick-use.sh
 ```
 
-To specify a  host and port, you can use: `--host`.
-
-`tapshell` prompts you for a password, which it masks as you type.To provide a password with the command instead of using the masked prompt, you can use the `-p` option.
 
 
 
