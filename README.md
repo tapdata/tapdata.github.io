@@ -148,11 +148,6 @@ For support, please contact [Tapdata](https://tapdata.net/tapdata-enterprise/dem
 
 See [Quick Start Guide](https://tapdata.github.io/docs/Quick%20Start/quick-start.html). 
 
-## 「WIP」Contributing
-
-The [community repository](https://github.com/tapdata/community) hosts all information about the Tapdata community, including how to contribute to Tapdata, how Tapdata community is governed, how special interest groups are organized, etc.
-
-Contributions are welcomed and greatly appreciated. See [Contribution to Tapdata](./docs/contributing-to-tapdata.md) for details on typical contribution workflows. 
 
 
 
