@@ -123,8 +123,8 @@ https://github.com/tapdata/tapdata/issues
 |     TDSQL-C PostgreSQL 版     | Target |     |          |  1   |
 |       Microsoft Access       | Source |     |          |  1   |
 |       Microsoft Access       | Target |     |          |  1   |
-|            SQLite            | Source |     |          |  1   |
-|            SQLite            | Target |     |          |  1   |
+|            SQLite            | Source | HarsenLin |          |  1   |
+|            SQLite            | Target | HarsenLin |          |  1   |
 |          Cassandra           | Target |     |          |  1   |
 |           Redshift           | Target |     |          |  1   |
 |          Snowflake           | Target |     |          |  2   |
