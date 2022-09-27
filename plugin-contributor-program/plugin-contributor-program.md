@@ -46,12 +46,12 @@ https://github.com/tapdata/tapdata/issues
 
 |             数据库              |  源/目标  | 贡献者 | Issue/PR | 难度划分 |
 |:----------------------------:|:------:|:---:|:--------:|:----:|
+|          MongoDB Atlas      | Target |          |          |  1   |
 |           PolarDB            | Source |     |          |  1   |
 |           PolarDB            | Target |     |          |  1   |
 |            TDSQL             | Source |     |          |  2   |
 |            TDSQL             | Target |     |          |  1   |
 |          AnalyticDB          | Target |     |          |  1   |
-|          SequoiaDB           | Source |     |          |  1   |
 |          SequoiaDB           | Target |     |          |  1   |
 |           TDengine           | Source |     |          |  1   |
 |           TDengine           | Target |     |          |  1   |
