@@ -1,4 +1,4 @@
-## **活动页面规则**
+## **Tapdata 数据源 Connector 大赛规则**
 ### **一、行为守则**
 我同意遵守该项目的[行为准则](https://www.apache.org/foundation/policies/conduct)
 ### **二、如何参与？**
@@ -34,7 +34,7 @@
 3. [开发测试指南](https://github.com/tapdata/tapdata.github.io/blob/main/%E5%BC%80%E5%8F%91%E6%B5%8B%E8%AF%95%E6%8C%87%E5%8D%97.md)
 
 ### **四、在运行过程中有任何问题可在 issues 中提问**
-https://github.com/tapdata/tapdata/issues （建议我们在 issues 中建立接入数据连接器的问题便签，便于大家打开 issues 第一时间找到并进行提问）
+https://github.com/tapdata/tapdata/issues
 ### **五、任务奖励列表（详情见开发指南）**
 
 | 任务  |  	Connector 主流程  |          	奖品金额          |
