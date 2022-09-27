@@ -1,6 +1,7 @@
 <left>
 <img src="./assets/logo-orange-grey-bar.png" width="300px"/>
 </left>
+
 ## What is Tapdata?
 
 Tapdata is a live data platform designed to connect data silos and provide fresh data to the downstream operational applications & operational analytics. 
