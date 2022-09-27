@@ -31,7 +31,7 @@
   mvn clean package -DskipTests -P not_encrypt
   等全量都编译通过，那么开发环境已经就绪，下面就正式进入研发新数据源阶段
 
-3. [开发测试指南](https://github.com/tapdata/tapdata.github.io/blob/main/%E5%BC%80%E5%8F%91%E6%B5%8B%E8%AF%95%E6%8C%87%E5%8D%97.md)
+3. [开发测试指南](https://github.com/tapdata/tapdata.github.io/blob/main/Connector%20Challenge/plugin-development-guide.md)
 
 ### **四、在运行过程中有任何问题可在 issues 中提问**
 https://github.com/tapdata/tapdata/issues
