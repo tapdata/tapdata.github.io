@@ -148,6 +148,6 @@ https://github.com/tapdata/tapdata/issues
 |  Microsoft Azure Cosmos DB   | Target |     |          |  1   |
 |           PostGIS            | Source |     |          |  1   |
 |           PostGIS            | Target |     |          |  1   |
-|           InfluxDB           | Target |     |          |  1   |
+|           InfluxDB           | Target |     |    complone      |  1   |
 |          Couchbase           | Target |     |          |  1   |
 |          Vika           | Target |   jiuyetx  |          |  1   |
