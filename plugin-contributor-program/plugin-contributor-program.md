@@ -24,7 +24,7 @@
 - Maven 3.6.3以上（配置阿里云、腾讯云镜像）
 2. 开发准备
 - GitHub右上角在fork标签下create  a new fork
-- 拉取代码：git clone https://github.com/<username>/tapdata.git
+- 拉取代码：git clone https://github.com/【username】/tapdata.git
 - 新建feat-<数据源昵称>分支
 - Load maven project（仅需plugin-kit、connectors-common、connectors）
 - 按plugin-kit、connectors-common、connectors先后顺序编译：
