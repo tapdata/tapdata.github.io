@@ -44,110 +44,109 @@ https://github.com/tapdata/tapdata/issues
 
 ### **六、数据连接器列表**
 
-|             数据类别             |        | 目标数据写入、源数据全量读取 |          | 源数据增量读取 |          |      |
-|:----------------------------:|:------:|:--------------:|:--------:|:-------:|:--------:|:----:|
-|             数据库              |  源/目标  |      贡献者       | Issue/PR |   贡献者   | Issue/PR | 难度划分 |
-|           PolarDB            | Source |                |          |         |          |  1   |
-|           PolarDB            | Target |                |          |         |          |  1   |
-|            TDSQL             | Source |                |          |         |          |  2   |
-|            TDSQL             | Target |                |          |         |          |  1   |
-|          AnalyticDB          | Target |                |          |         |          |  1   |
-|          SequoiaDB           | Source |                |          |         |          |  1   |
-|          SequoiaDB           | Target |                |          |         |          |  1   |
-|           TDengine           | Source |                |          |         |          |  1   |
-|           TDengine           | Target |                |          |         |          |  1   |
-|          TcaplusDB           | Source |                |          |         |          |  1   |
-|          TcaplusDB           | Target |                |          |         |          |  1   |
-|           GoldenDB           | Source |                |          |         |          |  1   |
-|           GoldenDB           | Target |                |          |         |          |  1   |
-|         GaussDB(DWS)         | Target |                |          |         |          |  1   |
-|            AntDB             | Source |                |          |         |          |  1   |
-|            AntDB             | Target |                |          |         |          |  1   |
-|           OushuDB            | Target |                |          |         |          |  1   |
-|            SUNDB             | Source |                |          |         |          |  1   |
-|            SUNDB             | Target |                |          |         |          |  1   |
-|            MogDB             | Source |                |          |         |          |  1   |
-|            MogDB             | Target |                |          |         |          |  1   |
-|             UXDB             | Source |                |          |         |          |  1   |
-|             UXDB             | Target |                |          |         |          |  1   |
-|             神舟通用             | Source |                |          |         |          |  1   |
-|             神舟通用             | Target |                |          |         |          |  1   |
-|          DolphinDB           | Source |                |          |         |          |  1   |
-|          DolphinDB           | Target |                |          |         |          |  1   |
-|           LightDB            | Source |                |          |         |          |  1   |
-|           LightDB            | Target |                |          |         |          |  1   |
-|           RapidsDB           | Source |                |          |         |          |  1   |
-|           RapidsDB           | Target |                |          |         |          |  1   |
-|           GreatDB            | Source |                |          |         |          |  1   |
-|           GreatDB            | Target |                |          |         |          |  1   |
-|          StarRocks           | Target |                |          |         |          |  1   |
-|          CirroData           | Target |                |          |         |          |  1   |
-|             TGDB             | Target |                |          |         |          |  1   |
-|            Nebula            | Target |                |          |         |          |  1   |
-|           Gbase 8a           | Source |                |          |         |          |  1   |
-|           KunlunDB           | Target |                |          |         |          |  1   |
-|           DataHub            | Source |                |          |         |          |  1   |
-|           DataHub            | Target |                |          |         |          |  1   |
-|          MaxCompute          | Target |                |          |         |          |  1   |
-|        PolarDB MySQL         | Source |                |          |         |          |  1   |
-|        PolarDB MySQL         | Target |                |          |         |          |  1   |
-|       阿里云消息队列 Kafka 版        | Source |                |          |         |          |  1   |
-|       阿里云消息队列 Kafka 版        | Target |                |          |         |          |  1   |
-|       表格存储 Tablestore        | Target |                |          |         |          |  2   |
-|   阿里云数据库 RDS SQL Server 版    | Source |                |          |         |          |  1   |
-|   阿里云数据库 RDS SQL Server 版    | Target |                |          |         |          |  1   |
-|     云原生分布式数据库 PolarDB-X      | Source |                |          |         |          |  1   |
-|     云原生分布式数据库 PolarDB-X      | Target |                |          |         |          |  1   |
-|             DDS              | Source |                |          |         |          |  1   |
-|             DDS              | Target |                |          |         |          |  1   |
-|  华为云数据库 GaussDB(for MySQL)   | Source |                |          |         |          |  2   |
-|  华为云数据库 GaussDB(for MySQL)   | Target |                |          |         |          |  1   |
-|          华为云 Kafka           | Source |                |          |         |          |  1   |
-|          华为云 Kafka           | Target |                |          |         |          |  1   |
-|          MySQL分库分表           | Source |                |          |         |          |  1   |
-|          MySQL分库分表           | Target |                |          |         |          |  1   |
-|  华为云数据库 RDS for SQL Server   | Source |                |          |         |          |  1   |
-|  华为云数据库 RDS for SQL Server   | Target |                |          |         |          |  1   |
-|     华为云数据库 RDS for MySQL     | Source |                |          |         |          |  1   |
-|     华为云数据库 RDS for MySQL     | Target |                |          |         |          |  1   |
-|  华为云数据库 RDS for PostgreSQL   | Source |                |          |         |          |  1   |
-|  华为云数据库 RDS for PostgreSQL   | Target |                |          |         |          |  1   |
-|           Percona            | Source |                |          |         |          |  1   |
-|           Percona            | Target |                |          |         |          |  1   |
-|        腾讯云数据库 MariaDB        | Source |                |          |         |          |  1   |
-|        腾讯云数据库 MariaDB        | Target |                |          |         |          |  1   |
-|       腾讯云原生数据库 TDSQL-C       | Source |                |          |         |          |  1   |
-|       腾讯云原生数据库 TDSQL-C       | Target |                |          |         |          |  1   |
-|       TDSQL-C MySQL 版        | Source |                |          |         |          |  1   |
-|       TDSQL-C MySQL 版        | Target |                |          |         |          |  1   |
-|     TDSQL-C PostgreSQL 版     | Source |                |          |         |          |  1   |
-|     TDSQL-C PostgreSQL 版     | Target |                |          |         |          |  1   |
-|       Microsoft Access       | Source |                |          |         |          |  1   |
-|       Microsoft Access       | Target |                |          |         |          |  1   |
-|            SQLite            | Source |                |          |         |          |  1   |
-|            SQLite            | Target |                |          |         |          |  1   |
-|          Cassandra           | Target |                |          |         |          |  1   |
-|           Redshift           | Target |                |          |         |          |  1   |
-|          Snowflake           | Target |                |          |         |          |  2   |
-|            Splunk            | Target |                |          |         |          |  1   |
-|       Amazon DynamoDB        | Source |                |          |         |          |  1   |
-|       Amazon DynamoDB        | Target |                |          |         |          |  1   |
-| Microsoft Azure SQL Database | Source |                |          |         |          |  1   |
-| Microsoft Azure SQL Database | Target |                |          |         |          |  1   |
-|           Teradata           | Target |                |          |         |          |  1   |
-|            Neo4j             | Source |                |          |         |          |  1   |
-|            Neo5j             | Target |                |          |         |          |  1   |
-|          Databricks          | Target |                |          |         |          |  1   |
-|             Solr             | Target |                |          |         |          |  1   |
-|           SAP HANA           | Source |                |          |         |          |  2   |
-|           SAP HANA           | Target |                |          |         |          |  1   |
-|       Google BigQuery        | Target |                |          |         |          |  2   |
-|     SAP Adaptive Server      | Source |                |          |         |          |  2   |
-|     SAP Adaptive Server      | Target |                |          |         |          |  1   |
-|            HBase             | Source |                |          |         |          |  1   |
-|  Microsoft Azure Cosmos DB   | Source |                |          |         |          |  1   |
-|  Microsoft Azure Cosmos DB   | Target |                |          |         |          |  1   |
-|           PostGIS            | Source |                |          |         |          |  1   |
-|           PostGIS            | Target |                |          |         |          |  1   |
-|           InfluxDB           | Target |                |          |         |          |  1   |
-|          Couchbase           | Target |                |          |         |          |  1   |
+|             数据库              |  源/目标  | 贡献者 | Issue/PR | 难度划分 |
+|:----------------------------:|:------:|:---:|:--------:|:----:|
+|           PolarDB            | Source |     |          |  1   |
+|           PolarDB            | Target |     |          |  1   |
+|            TDSQL             | Source |     |          |  2   |
+|            TDSQL             | Target |     |          |  1   |
+|          AnalyticDB          | Target |     |          |  1   |
+|          SequoiaDB           | Source |     |          |  1   |
+|          SequoiaDB           | Target |     |          |  1   |
+|           TDengine           | Source |     |          |  1   |
+|           TDengine           | Target |     |          |  1   |
+|          TcaplusDB           | Source |     |          |  1   |
+|          TcaplusDB           | Target |     |          |  1   |
+|           GoldenDB           | Source |     |          |  1   |
+|           GoldenDB           | Target |     |          |  1   |
+|         GaussDB(DWS)         | Target |     |          |  1   |
+|            AntDB             | Source |     |          |  1   |
+|            AntDB             | Target |     |          |  1   |
+|           OushuDB            | Target |     |          |  1   |
+|            SUNDB             | Source |     |          |  1   |
+|            SUNDB             | Target |     |          |  1   |
+|            MogDB             | Source |     |          |  1   |
+|            MogDB             | Target |     |          |  1   |
+|             UXDB             | Source |     |          |  1   |
+|             UXDB             | Target |     |          |  1   |
+|             神舟通用             | Source |     |          |  1   |
+|             神舟通用             | Target |     |          |  1   |
+|          DolphinDB           | Source |     |          |  1   |
+|          DolphinDB           | Target |     |          |  1   |
+|           LightDB            | Source |     |          |  1   |
+|           LightDB            | Target |     |          |  1   |
+|           RapidsDB           | Source |     |          |  1   |
+|           RapidsDB           | Target |     |          |  1   |
+|           GreatDB            | Source |     |          |  1   |
+|           GreatDB            | Target |     |          |  1   |
+|          StarRocks           | Target |     |          |  1   |
+|          CirroData           | Target |     |          |  1   |
+|             TGDB             | Target |     |          |  1   |
+|            Nebula            | Target |     |          |  1   |
+|           Gbase 8a           | Source |     |          |  1   |
+|           KunlunDB           | Target |     |          |  1   |
+|           DataHub            | Source |     |          |  1   |
+|           DataHub            | Target |     |          |  1   |
+|          MaxCompute          | Target |     |          |  1   |
+|        PolarDB MySQL         | Source |     |          |  1   |
+|        PolarDB MySQL         | Target |     |          |  1   |
+|       阿里云消息队列 Kafka 版        | Source |     |          |  1   |
+|       阿里云消息队列 Kafka 版        | Target |     |          |  1   |
+|       表格存储 Tablestore        | Target |     |          |  2   |
+|   阿里云数据库 RDS SQL Server 版    | Source |     |          |  1   |
+|   阿里云数据库 RDS SQL Server 版    | Target |     |          |  1   |
+|     云原生分布式数据库 PolarDB-X      | Source |     |          |  1   |
+|     云原生分布式数据库 PolarDB-X      | Target |     |          |  1   |
+|             DDS              | Source |     |          |  1   |
+|             DDS              | Target |     |          |  1   |
+|  华为云数据库 GaussDB(for MySQL)   | Source |     |          |  2   |
+|  华为云数据库 GaussDB(for MySQL)   | Target |     |          |  1   |
+|          华为云 Kafka           | Source |     |          |  1   |
+|          华为云 Kafka           | Target |     |          |  1   |
+|          MySQL分库分表           | Source |     |          |  1   |
+|          MySQL分库分表           | Target |     |          |  1   |
+|  华为云数据库 RDS for SQL Server   | Source |     |          |  1   |
+|  华为云数据库 RDS for SQL Server   | Target |     |          |  1   |
+|     华为云数据库 RDS for MySQL     | Source |     |          |  1   |
+|     华为云数据库 RDS for MySQL     | Target |     |          |  1   |
+|  华为云数据库 RDS for PostgreSQL   | Source |     |          |  1   |
+|  华为云数据库 RDS for PostgreSQL   | Target |     |          |  1   |
+|           Percona            | Source |     |          |  1   |
+|           Percona            | Target |     |          |  1   |
+|        腾讯云数据库 MariaDB        | Source |     |          |  1   |
+|        腾讯云数据库 MariaDB        | Target |     |          |  1   |
+|       腾讯云原生数据库 TDSQL-C       | Source |     |          |  1   |
+|       腾讯云原生数据库 TDSQL-C       | Target |     |          |  1   |
+|       TDSQL-C MySQL 版        | Source |     |          |  1   |
+|       TDSQL-C MySQL 版        | Target |     |          |  1   |
+|     TDSQL-C PostgreSQL 版     | Source |     |          |  1   |
+|     TDSQL-C PostgreSQL 版     | Target |     |          |  1   |
+|       Microsoft Access       | Source |     |          |  1   |
+|       Microsoft Access       | Target |     |          |  1   |
+|            SQLite            | Source |     |          |  1   |
+|            SQLite            | Target |     |          |  1   |
+|          Cassandra           | Target |     |          |  1   |
+|           Redshift           | Target |     |          |  1   |
+|          Snowflake           | Target |     |          |  2   |
+|            Splunk            | Target |     |          |  1   |
+|       Amazon DynamoDB        | Source |     |          |  1   |
+|       Amazon DynamoDB        | Target |     |          |  1   |
+| Microsoft Azure SQL Database | Source |     |          |  1   |
+| Microsoft Azure SQL Database | Target |     |          |  1   |
+|           Teradata           | Target |     |          |  1   |
+|            Neo4j             | Source |     |          |  1   |
+|            Neo5j             | Target |     |          |  1   |
+|          Databricks          | Target |     |          |  1   |
+|             Solr             | Target |     |          |  1   |
+|           SAP HANA           | Source |     |          |  2   |
+|           SAP HANA           | Target |     |          |  1   |
+|       Google BigQuery        | Target |     |          |  2   |
+|     SAP Adaptive Server      | Source |     |          |  2   |
+|     SAP Adaptive Server      | Target |     |          |  1   |
+|            HBase             | Source |     |          |  1   |
+|  Microsoft Azure Cosmos DB   | Source |     |          |  1   |
+|  Microsoft Azure Cosmos DB   | Target |     |          |  1   |
+|           PostGIS            | Source |     |          |  1   |
+|           PostGIS            | Target |     |          |  1   |
+|           InfluxDB           | Target |     |          |  1   |
+|          Couchbase           | Target |     |          |  1   |
