@@ -88,7 +88,7 @@ https://github.com/tapdata/tapdata/issues
 |           DataHub            | Source |     |          |  1   |
 |           DataHub            | Target |     |          |  1   |
 |          MaxCompute          | Target |     |          |  1   |
-|        PolarDB MySQL         | Source |     |          |  1   |
+|        PolarDB MySQL         | Source |TandK8600|          |  1   |
 |        PolarDB MySQL         | Target |     |          |  1   |
 |       阿里云消息队列 Kafka 版        | Source |     |          |  1   |
 |       阿里云消息队列 Kafka 版        | Target |     |          |  1   |
