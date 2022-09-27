@@ -108,7 +108,7 @@ https://github.com/tapdata/tapdata/issues
 |  华为云数据库 RDS for SQL Server   | Source |     |          |  1   |
 |  华为云数据库 RDS for SQL Server   | Target |     |          |  1   |
 |     华为云数据库 RDS for MySQL     | Source |     |          |  1   |
-|     华为云数据库 RDS for MySQL     | Target |     |          |  1   |
+|     华为云数据库 RDS for MySQL     | Target |  zed1201   |          |  1   |
 |  华为云数据库 RDS for PostgreSQL   | Source |     |          |  1   |
 |  华为云数据库 RDS for PostgreSQL   | Target |     |          |  1   |
 |           Percona            | Source |     |          |  1   |
