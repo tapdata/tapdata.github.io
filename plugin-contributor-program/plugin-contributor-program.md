@@ -143,7 +143,7 @@ https://github.com/tapdata/tapdata/issues
 |       Google BigQuery        | Target |     |          |  2   |
 |     SAP Adaptive Server      | Source |     |          |  2   |
 |     SAP Adaptive Server      | Target |     |          |  1   |
-|            HBase             | Source |     |          |  1   |
+|            HBase             | Source |zhugezifang     |          |  1   |
 |  Microsoft Azure Cosmos DB   | Source |     |          |  1   |
 |  Microsoft Azure Cosmos DB   | Target |     |          |  1   |
 |           PostGIS            | Source |     |          |  1   |
