@@ -90,8 +90,8 @@ https://github.com/tapdata/tapdata/issues
 |          MaxCompute          | Target |     |          |  1   |
 |        PolarDB MySQL         | Source |TandK8600|          |  1   |
 |        PolarDB MySQL         | Target |     |          |  1   |
-|       阿里云消息队列 Kafka 版        | Source |     |          |  1   |
-|       阿里云消息队列 Kafka 版        | Target |     |          |  1   |
+|       阿里云消息队列 Kafka 版        | Source |  sdvdxl   |          |  1   |
+|       阿里云消息队列 Kafka 版        | Target |  sdvdxl   |          |  1   |
 |       表格存储 Tablestore        | Target |     |          |  2   |
 |   阿里云数据库 RDS SQL Server 版    | Source |     |          |  1   |
 |   阿里云数据库 RDS SQL Server 版    | Target |     |          |  1   |
@@ -101,8 +101,8 @@ https://github.com/tapdata/tapdata/issues
 |             DDS              | Target |     |          |  1   |
 |  华为云数据库 GaussDB(for MySQL)   | Source |     |          |  2   |
 |  华为云数据库 GaussDB(for MySQL)   | Target |     |          |  1   |
-|          华为云 Kafka           | Source |     |          |  1   |
-|          华为云 Kafka           | Target |     |          |  1   |
+|          华为云 Kafka           | Source |  sdvdxl   |          |  1   |
+|          华为云 Kafka           | Target |   sdvdxl  |          |  1   |
 |          MySQL分库分表           | Source |     |          |  1   |
 |          MySQL分库分表           | Target |     |          |  1   |
 |  华为云数据库 RDS for SQL Server   | Source |     |          |  1   |
