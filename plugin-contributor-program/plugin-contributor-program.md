@@ -46,7 +46,7 @@ https://github.com/tapdata/tapdata/issues
 
 |             数据库              |  源/目标  | 贡献者 | Issue/PR | 难度划分 |
 |:----------------------------:|:------:|:---:|:--------:|:----:|
-|          MongoDB Atlas      | Target |          |          |  1   |
+|          MongoDB Atlas      | Target |  guguoyi        |          |  1   |
 |           PolarDB            | Source |     |          |  1   |
 |           PolarDB            | Target |     |          |  1   |
 |            TDSQL             | Source |     |          |  2   |
