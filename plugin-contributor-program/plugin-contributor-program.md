@@ -90,9 +90,9 @@ https://github.com/tapdata/tapdata/issues
 |          MaxCompute          | Target |     |          |  1   |
 |        PolarDB MySQL         | Source |TandK8600|          |  1   |
 |        PolarDB MySQL         | Target |     |          |  1   |
+|       表格存储 Tablestore        | Target |  jiuyetx   |          |  2   |
 |       阿里云消息队列 Kafka 版        | Source |  sdvdxl   |          |  1   |
 |       阿里云消息队列 Kafka 版        | Target |  sdvdxl   |          |  1   |
-|       表格存储 Tablestore        | Target |     |          |  2   |
 |   阿里云数据库 RDS SQL Server 版    | Source |     |          |  1   |
 |   阿里云数据库 RDS SQL Server 版    | Target |     |          |  1   |
 |     云原生分布式数据库 PolarDB-X      | Source |     |          |  1   |
@@ -150,4 +150,4 @@ https://github.com/tapdata/tapdata/issues
 |           PostGIS            | Target |     |          |  1   |
 |           InfluxDB           | Target |     |    complone      |  1   |
 |          Couchbase           | Target |     |          |  1   |
-|          Vika           | Target |   jiuyetx  |          |  1   |
+|          Vika           | Target |     |          |  1   |
