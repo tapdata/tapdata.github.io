@@ -46,12 +46,12 @@ https://github.com/tapdata/tapdata/issues
 
 |             数据库              |  源/目标  | 贡献者 | Issue/PR | 难度划分 |
 |:----------------------------:|:------:|:---:|:--------:|:----:|
+|          MongoDB Atlas      | Target |  guguoyi        |          |  1   |
 |           PolarDB            | Source |     |          |  1   |
 |           PolarDB            | Target |     |          |  1   |
 |            TDSQL             | Source |     |          |  2   |
 |            TDSQL             | Target |     |          |  1   |
 |          AnalyticDB          | Target |     |          |  1   |
-|          SequoiaDB           | Source |     |          |  1   |
 |          SequoiaDB           | Target |     |          |  1   |
 |           TDengine           | Source |     |          |  1   |
 |           TDengine           | Target |     |          |  1   |
@@ -88,11 +88,11 @@ https://github.com/tapdata/tapdata/issues
 |           DataHub            | Source |     |          |  1   |
 |           DataHub            | Target |     |          |  1   |
 |          MaxCompute          | Target |     |          |  1   |
-|        PolarDB MySQL         | Source |     |          |  1   |
+|        PolarDB MySQL         | Source |TandK8600|          |  1   |
 |        PolarDB MySQL         | Target |     |          |  1   |
-|       阿里云消息队列 Kafka 版        | Source |     |          |  1   |
-|       阿里云消息队列 Kafka 版        | Target |     |          |  1   |
 |       表格存储 Tablestore        | Target |  jiuyetx   |          |  2   |
+|       阿里云消息队列 Kafka 版        | Source |  sdvdxl   |          |  1   |
+|       阿里云消息队列 Kafka 版        | Target |  sdvdxl   |          |  1   |
 |   阿里云数据库 RDS SQL Server 版    | Source |     |          |  1   |
 |   阿里云数据库 RDS SQL Server 版    | Target |     |          |  1   |
 |     云原生分布式数据库 PolarDB-X      | Source |     |          |  1   |
@@ -101,14 +101,14 @@ https://github.com/tapdata/tapdata/issues
 |             DDS              | Target |     |          |  1   |
 |  华为云数据库 GaussDB(for MySQL)   | Source |     |          |  2   |
 |  华为云数据库 GaussDB(for MySQL)   | Target |     |          |  1   |
-|          华为云 Kafka           | Source |     |          |  1   |
-|          华为云 Kafka           | Target |     |          |  1   |
+|          华为云 Kafka           | Source |  sdvdxl   |          |  1   |
+|          华为云 Kafka           | Target |   sdvdxl  |          |  1   |
 |          MySQL分库分表           | Source |     |          |  1   |
 |          MySQL分库分表           | Target |     |          |  1   |
 |  华为云数据库 RDS for SQL Server   | Source |     |          |  1   |
 |  华为云数据库 RDS for SQL Server   | Target |     |          |  1   |
-|     华为云数据库 RDS for MySQL     | Source |     |          |  1   |
-|     华为云数据库 RDS for MySQL     | Target |     |          |  1   |
+|     华为云数据库 RDS for MySQL     | Source |   zed1201  |          |  1   |
+|     华为云数据库 RDS for MySQL     | Target |  zed1201   |          |  1   |
 |  华为云数据库 RDS for PostgreSQL   | Source |     |          |  1   |
 |  华为云数据库 RDS for PostgreSQL   | Target |     |          |  1   |
 |           Percona            | Source |     |          |  1   |
@@ -123,8 +123,8 @@ https://github.com/tapdata/tapdata/issues
 |     TDSQL-C PostgreSQL 版     | Target |     |          |  1   |
 |       Microsoft Access       | Source |     |          |  1   |
 |       Microsoft Access       | Target |     |          |  1   |
-|            SQLite            | Source |     |          |  1   |
-|            SQLite            | Target |     |          |  1   |
+|            SQLite            | Source | HarsenLin |          |  1   |
+|            SQLite            | Target | HarsenLin |          |  1   |
 |          Cassandra           | Target |     |          |  1   |
 |           Redshift           | Target |     |          |  1   |
 |          Snowflake           | Target |     |          |  2   |
@@ -143,11 +143,11 @@ https://github.com/tapdata/tapdata/issues
 |       Google BigQuery        | Target |     |          |  2   |
 |     SAP Adaptive Server      | Source |     |          |  2   |
 |     SAP Adaptive Server      | Target |     |          |  1   |
-|            HBase             | Source |     |          |  1   |
+|            HBase             | Source |zhugezifang     |          |  1   |
 |  Microsoft Azure Cosmos DB   | Source |     |          |  1   |
 |  Microsoft Azure Cosmos DB   | Target |     |          |  1   |
 |           PostGIS            | Source |     |          |  1   |
 |           PostGIS            | Target |     |          |  1   |
-|           InfluxDB           | Target |     |          |  1   |
+|           InfluxDB           | Target |     |    complone      |  1   |
 |          Couchbase           | Target |     |          |  1   |
 |          Vika           | Target |     |          |  1   |
