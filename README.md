@@ -16,7 +16,7 @@ Live Data Service is Tapdata's modern approach to the old data integration probl
 
 As an alternative, if your data source allows, you may also create data APIs directly from source databases such as Oracle, MySQL, SQLServer etc. 
 
-The term "live has two meanings:
+The term "live" has two meanings:
 
 - When you are using Live Data Integrations, Tapdata will collect data in a "live" mode means it will listen for the changes on the source database and capture the change immediately and send it to the pipeline for processing and downstream consumption. Sometime this is called CDC technology. The data is always fresh and lively throughout the data pipeline. 
 
