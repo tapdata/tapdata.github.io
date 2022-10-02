@@ -53,8 +53,8 @@ https://github.com/tapdata/tapdata/issues
 |            TDSQL             | Target |     |          |  1   |
 |          AnalyticDB          | Target |     |          |  1   |
 |          SequoiaDB           | Target |     |          |  1   |
-|           TDengine           | Source |     |          |  1   |
-|           TDengine           | Target |     |          |  1   |
+|           TDengine           | Source |  IssaacWang   |          |  1   |
+|           TDengine           | Target |  IssaacWang   |          |  1   |
 |          TcaplusDB           | Source |     |          |  1   |
 |          TcaplusDB           | Target |     |          |  1   |
 |           GoldenDB           | Source |     |          |  1   |
