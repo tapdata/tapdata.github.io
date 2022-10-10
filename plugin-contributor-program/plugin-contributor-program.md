@@ -150,4 +150,4 @@ https://github.com/tapdata/tapdata/issues
 |           PostGIS            | Target |     |          |  1   |
 |           InfluxDB           | Target |     |    complone      |  1   |
 |          Couchbase           | Target |     |          |  1   |
-|          Vika           | Target |     |          |  1   |
+|          Vika           | Target |  jiuyetx   |          |  1   |
