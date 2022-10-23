@@ -136,7 +136,7 @@ https://github.com/tapdata/tapdata/issues
 |           Teradata           | Target |     |          |  1   |
 |            Neo4j             | Source |     |          |  1   |
 |            Neo5j             | Target |     |          |  1   |
-|          Databricks          | Target |     |          |  1   |
+|          Databricks          | Target |zhou-yong-long|          |  1   |
 |             Solr             | Target |     |          |  1   |
 |           SAP HANA           | Source |     |          |  2   |
 |           SAP HANA           | Target |     |          |  1   |
